@@ -1,0 +1,12 @@
+# CPU wheels for torch keep the Streamlit Cloud install smaller.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+
+streamlit>=1.37
+pypdf>=4.2
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+rank-bm25>=0.2.2
+groq>=0.9
+numpy>=1.26
+reportlab>=4.2
